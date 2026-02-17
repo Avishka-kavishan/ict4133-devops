@@ -6,9 +6,9 @@ Cyclomatic Complexity: ~5 (ACCEPTABLE)
 
 
 def calculate_student_grade(score, attendance, assignments_completed,
-                             participation, extra_credit, late_submissions,
-                             group_project_score, midterm_score,
-                             final_exam_score, is_honors_student):
+                            participation, extra_credit, late_submissions,
+                            group_project_score, midterm_score,
+                            final_exam_score, is_honors_student):
     """
     Calculate final grade for a student based on multiple criteria.
 
@@ -32,9 +32,9 @@ def calculate_student_grade(score, attendance, assignments_completed,
 
 
 def calculate_total_points(score, attendance, assignments_completed,
-                            participation, extra_credit, late_submissions,
-                            group_project_score, midterm_score,
-                            final_exam_score):
+                           participation, extra_credit, late_submissions,
+                           group_project_score, midterm_score,
+                           final_exam_score):
     """
     Calculate weighted total points from all components.
     Cyclomatic Complexity: 1 (EXCELLENT!)

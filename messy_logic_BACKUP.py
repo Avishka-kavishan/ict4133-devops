@@ -12,9 +12,9 @@ TO USE THIS VERSION:
 
 
 def calculate_student_grade(score, attendance, assignments_completed,
-                             participation, extra_credit, late_submissions,
-                             group_project_score, midterm_score,
-                             final_exam_score, is_honors_student):
+                            participation, extra_credit, late_submissions,
+                            group_project_score, midterm_score,
+                            final_exam_score, is_honors_student):
     """
     Calculate final grade for a student based on multiple criteria.
 
